@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class HelloWorld{
+
+    
+ public static void main(String []args){
+        
+	Scanner bob = new Scanner(System.in);
+        System.out.println("How many cups do ya want???");
+
+         int cups= bob.nextInt();
+
+         double cost= 1.50;
+
+         double total= cost*cups;
+
+         if (cups <=0) {
+
+             System.out.printf("You suck");
+
+         } else {
+             
+		System.out.printf("You owe:$%"+ total);
+
+         }
+
+     }
+
+  }
